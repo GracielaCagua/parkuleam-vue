@@ -9,7 +9,7 @@
       <div class="grid-2">
         <div>
           <label for="regNombres">Nombres completos</label>
-          <input type="text" id="regNombres" v-model="form.nombres" placeholder="Ej: Graciela Cagua Campozano">
+          <input type="text" id="regNombres" v-model="form.nombres" placeholder="Ej: Graciela Cagua Campuzano">
           <span class="error-msg">{{ errores.nombres }}</span>
         </div>
         <div>

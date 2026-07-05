@@ -1,6 +1,4 @@
-/* =========================================================================
-   Funciones puras de validación y formato, usadas por varias vistas.
-   ========================================================================= */
+//Funciones puras de validación y formato, usadas por varias vistas//
 
 export function validarCorreoInstitucional(correo) {
   return /^[a-zA-Z0-9._%+-]+@uleam\.edu\.ec$/i.test(correo.trim());
